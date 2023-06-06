@@ -23,13 +23,13 @@ header a {
     text-decoration: none;
 }
 
-header h1 {
+header > h1 {
     font-size: 6em;
     padding: 40px;
     font-variant: small-caps;
 }
 
-header p {
+header > p {
     margin: 0px 0px 50px 0px
 }
 
@@ -40,7 +40,17 @@ a:hover {
 
 section {
     padding: 30px;
-    line-height: 1.7em;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
 }
 
 footer {
