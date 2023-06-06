@@ -48,6 +48,7 @@ section {
     padding-left: 50px;
     line-height: 2em;
     font-family: var(--fonte1);
+    display: block;
 }
 
 section.normal {
@@ -61,7 +62,7 @@ section.imagem {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.267);
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.247);
 }
 
 section > p {
